@@ -8,8 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build x86_64-Official 
-
+name: Openwrt ybx86_64-1907
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -24,7 +23,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-19.07
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: openwrt-19.07.config
+  CONFIG_FILE: openwrt1907
   DIY_P1_SH: diy-part01.sh
   DIY_P2_SH: diy-part02.sh
   UPLOAD_BIN_DIR: false
