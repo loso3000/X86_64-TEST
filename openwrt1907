@@ -23,19 +23,6 @@ CONFIG_TARGET_KERNEL_PARTSIZE=64
 #CONFIG_TARGET_KERNEL_PARTSIZE=16
 CONFIG_TARGET_ROOTFS_PARTSIZE=980
 
-# CONFIG_PACKAGE_kmod-usb-net-rtl8152 is not set
-CONFIG_PACKAGE_kmod-usb-net-rtl8152-vendor=y
-
-CONFIG_PACKAGE_kmod-vmxnet3=y
-CONFIG_PACKAGE_kmod-igbvf=y
-CONFIG_PACKAGE_kmod-ixgbe=y
-CONFIG_PACKAGE_kmod-pcnet32=y
-CONFIG_PACKAGE_kmod-r8125=y
-CONFIG_PACKAGE_kmod-r8168=y
-CONFIG_PACKAGE_kmod-8139cp=y
-CONFIG_PACKAGE_kmod-8139too=y
-# CONFIG_PACKAGE_kmod-r8169 is not set
-
 CONFIG_COREMARK_OPTIMIZE_O3=y
 CONFIG_DRIVER_11AC_SUPPORT=y
 CONFIG_DRIVER_11N_SUPPORT=y
@@ -115,196 +102,31 @@ CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_bc=y
 CONFIG_PACKAGE_blkid=y
 CONFIG_PACKAGE_block-mount=y
-CONFIG_PACKAGE_boost=y
-CONFIG_PACKAGE_boost-program_options=y
-CONFIG_PACKAGE_boost-system=y
-CONFIG_PACKAGE_brcmfmac-firmware-43602a1-pcie=y
-CONFIG_PACKAGE_cgi-io=y
-CONFIG_PACKAGE_coremark=y
-CONFIG_PACKAGE_coreutils=y
-CONFIG_PACKAGE_coreutils-base64=y
 CONFIG_PACKAGE_curl=y
-CONFIG_WOLFSSL_HAS_AES_CCM=y
-
-
 
 # CONFIG_PACKAGE_nftables-nojson is not set
 
-
-CONFIG_PACKAGE_ethtool=y
-CONFIG_PACKAGE_glib2=y
-CONFIG_PACKAGE_hostapd-common=y
-CONFIG_PACKAGE_htop=y
-CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_ipset=y
-CONFIG_PACKAGE_iptables-mod-tproxy=y
-CONFIG_PACKAGE_irqbalance=y
 CONFIG_PACKAGE_iw=y
-CONFIG_PACKAGE_iwinfo=y
+# CONFIG_PACKAGE_kmod-usb-net-rtl8152 is not set
+CONFIG_PACKAGE_kmod-usb-net-rtl8152-vendor=y
+
+CONFIG_PACKAGE_kmod-vmxnet3=y
+CONFIG_PACKAGE_kmod-igbvf=y
+CONFIG_PACKAGE_kmod-ixgbe=y
+CONFIG_PACKAGE_kmod-pcnet32=y
+CONFIG_PACKAGE_kmod-r8125=y
+CONFIG_PACKAGE_kmod-r8168=y
 CONFIG_PACKAGE_kmod-8139cp=y
 CONFIG_PACKAGE_kmod-8139too=y
-CONFIG_PACKAGE_kmod-alx=y
-CONFIG_PACKAGE_kmod-asn1-decoder=y
-CONFIG_PACKAGE_kmod-ath=y
-CONFIG_PACKAGE_kmod-ath10k=y
-CONFIG_PACKAGE_kmod-bonding=y
-CONFIG_PACKAGE_kmod-cfg80211=y
-CONFIG_PACKAGE_kmod-crypto-acompress=y
-CONFIG_PACKAGE_kmod-crypto-aead=y
-CONFIG_PACKAGE_kmod-crypto-arc4=y
-CONFIG_PACKAGE_kmod-crypto-cbc=y
-CONFIG_PACKAGE_kmod-crypto-ccm=y
-CONFIG_PACKAGE_kmod-crypto-cmac=y
-CONFIG_PACKAGE_kmod-crypto-ctr=y
-CONFIG_PACKAGE_kmod-crypto-cts=y
-CONFIG_PACKAGE_kmod-crypto-des=y
-CONFIG_PACKAGE_kmod-crypto-ecb=y
-CONFIG_PACKAGE_kmod-crypto-gcm=y
-CONFIG_PACKAGE_kmod-crypto-gf128=y
-CONFIG_PACKAGE_kmod-crypto-ghash=y
-CONFIG_PACKAGE_kmod-crypto-hmac=y
-CONFIG_PACKAGE_kmod-crypto-manager=y
-CONFIG_PACKAGE_kmod-crypto-md4=y
-CONFIG_PACKAGE_kmod-crypto-md5=y
-CONFIG_PACKAGE_kmod-crypto-null=y
-CONFIG_PACKAGE_kmod-crypto-rng=y
-CONFIG_PACKAGE_kmod-crypto-seqiv=y
-CONFIG_PACKAGE_kmod-crypto-sha1=y
-CONFIG_PACKAGE_kmod-crypto-sha256=y
-CONFIG_PACKAGE_kmod-crypto-sha512=y
-CONFIG_PACKAGE_kmod-dma-buf=y
-CONFIG_PACKAGE_kmod-drm=y
-CONFIG_PACKAGE_kmod-drm-ttm=y
-
-
-
-CONFIG_PACKAGE_kmod-i40e=y
-CONFIG_PACKAGE_kmod-igbvf=y
-CONFIG_PACKAGE_kmod-igc=y
-CONFIG_PACKAGE_kmod-input-evdev=y
-CONFIG_PACKAGE_kmod-ipt-ipset=y
-CONFIG_PACKAGE_kmod-ipt-raw=y
-CONFIG_PACKAGE_kmod-ipt-tproxy=y
-CONFIG_PACKAGE_kmod-ixgbevf=y
-CONFIG_PACKAGE_kmod-lib-crc-itu-t=y
-CONFIG_PACKAGE_kmod-lib-crc16=y
-CONFIG_PACKAGE_kmod-lib-crc7=y
-CONFIG_PACKAGE_kmod-lib-lz4=y
-CONFIG_PACKAGE_kmod-lib-lzo=y
-CONFIG_PACKAGE_kmod-lib-textsearch=y
-
-CONFIG_PACKAGE_kmod-mac80211=y
-CONFIG_PACKAGE_kmod-macvlan=y
-CONFIG_PACKAGE_kmod-mlx4-core=y
-CONFIG_PACKAGE_kmod-mlx5-core=y
-CONFIG_PACKAGE_kmod-mmc=y
-CONFIG_PACKAGE_kmod-mmc-spi=y
-CONFIG_PACKAGE_kmod-mppe=y
-CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
-CONFIG_PACKAGE_kmod-nf-nathelper-extra=y
-CONFIG_PACKAGE_kmod-nfnetlink=y
-CONFIG_PACKAGE_kmod-nft-bridge=y
-CONFIG_PACKAGE_kmod-nft-core=y
-CONFIG_PACKAGE_kmod-nft-netdev=y
-CONFIG_PACKAGE_kmod-pcnet32=y
-# CONFIG_PACKAGE_kmod-phy-realtek is not set
 # CONFIG_PACKAGE_kmod-r8169 is not set
 
-CONFIG_PACKAGE_kmod-rt2800-lib=y
-CONFIG_PACKAGE_kmod-rt2800-usb=y
-CONFIG_PACKAGE_kmod-rt2x00-lib=y
-CONFIG_PACKAGE_kmod-rt2x00-usb=y
-CONFIG_PACKAGE_kmod-scsi-core=y
-CONFIG_PACKAGE_kmod-sdhci=y
-CONFIG_PACKAGE_kmod-tcp-bbr=y
-CONFIG_PACKAGE_kmod-tulip=y
-CONFIG_PACKAGE_kmod-usb-core=y
-CONFIG_PACKAGE_kmod-usb-ehci=y
-CONFIG_PACKAGE_kmod-usb-net=y
-CONFIG_PACKAGE_kmod-usb-net-asix=y
-CONFIG_PACKAGE_kmod-usb-net-asix-ax88179=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
-CONFIG_PACKAGE_kmod-usb-net-ipheth=y
-CONFIG_PACKAGE_kmod-usb-net-rndis=y
-CONFIG_PACKAGE_kmod-usb-storage=y
-CONFIG_PACKAGE_kmod-usb-storage-extras=y
-CONFIG_PACKAGE_kmod-usb-storage-uas=y
-CONFIG_PACKAGE_kmod-usb-xhci-hcd=y
-CONFIG_PACKAGE_kmod-usb2=y
-CONFIG_PACKAGE_kmod-usb2-pci=y
-CONFIG_PACKAGE_kmod-usb3=y
-CONFIG_PACKAGE_kmod-vmxnet3=y
-CONFIG_PACKAGE_kmod-zram=y
-
-CONFIG_PACKAGE_ksmbd-server=y
-
-CONFIG_PACKAGE_libattr=y
-CONFIG_PACKAGE_libbpf=y
-CONFIG_PACKAGE_libcap=y
-CONFIG_PACKAGE_libcap-ng=y
-CONFIG_PACKAGE_libcares=y
-CONFIG_PACKAGE_libcurl=y
-CONFIG_PACKAGE_libelf=y
-CONFIG_PACKAGE_libev=y
-CONFIG_PACKAGE_libevent2=y
-CONFIG_PACKAGE_libffi=y
-CONFIG_PACKAGE_libgmp=y
-CONFIG_PACKAGE_libipset=y
-CONFIG_PACKAGE_libiwinfo=y
-CONFIG_PACKAGE_libiwinfo-data=y
-CONFIG_PACKAGE_libiwinfo-lua=y
-CONFIG_PACKAGE_liblua=y
-CONFIG_PACKAGE_liblucihttp=y
-CONFIG_PACKAGE_liblucihttp-lua=y
-CONFIG_PACKAGE_liblz4=y
-CONFIG_PACKAGE_liblzo=y
-CONFIG_PACKAGE_libmaxminddb=y
-CONFIG_PACKAGE_libmbedtls=y
-CONFIG_PACKAGE_libmnl=y
-CONFIG_PACKAGE_libncurses=y
-CONFIG_PACKAGE_libnetfilter-conntrack=y
-CONFIG_PACKAGE_libnetsnmp=y
-CONFIG_PACKAGE_libnettle=y
-CONFIG_PACKAGE_libnfnetlink=y
-CONFIG_PACKAGE_libnftnl=y
-CONFIG_PACKAGE_libnghttp2=y
-CONFIG_PACKAGE_libnl-core=y
-CONFIG_PACKAGE_libnl-genl=y
-CONFIG_PACKAGE_libopenssl=y
-CONFIG_PACKAGE_libopenssl-conf=y
-CONFIG_PACKAGE_libpci=y
-CONFIG_PACKAGE_libpcre=y
-CONFIG_PACKAGE_libreadline=y
-CONFIG_PACKAGE_libsensors=y
-CONFIG_PACKAGE_libsodium=y
-CONFIG_PACKAGE_libstdcpp=y
-CONFIG_PACKAGE_libsysfs=y
-CONFIG_PACKAGE_libubus-lua=y
-CONFIG_PACKAGE_libudns=y
-CONFIG_PACKAGE_libxml2=y
-CONFIG_PACKAGE_libzstd=y
+# CONFIG_PACKAGE_kmod-phy-realtek is not set
+# CONFIG_PACKAGE_kmod-r8169 is not set
 
 CONFIG_PACKAGE_lm-sensors=y
 CONFIG_PACKAGE_lm-sensors-detect=y
 CONFIG_PACKAGE_lua=y
 
-CONFIG_PACKAGE_luci-compat=y
-CONFIG_PACKAGE_luci-lib-base=y
-CONFIG_PACKAGE_luci-lib-ip=y
-CONFIG_PACKAGE_luci-lib-ipkg=y
-CONFIG_PACKAGE_luci-lib-json=y
-CONFIG_PACKAGE_luci-lib-jsonc=y
-CONFIG_PACKAGE_luci-lib-nixio=y
-CONFIG_PACKAGE_luci-mod-admin-full=y
-CONFIG_PACKAGE_luci-mod-network=y
-CONFIG_PACKAGE_luci-mod-rpc=y
-CONFIG_PACKAGE_luci-mod-status=y
-CONFIG_PACKAGE_luci-mod-system=y
-CONFIG_PACKAGE_luci-proto-bonding=y
-CONFIG_PACKAGE_luci-proto-ipv6=y
-CONFIG_PACKAGE_luci-proto-ppp=y
-CONFIG_PACKAGE_luci-proto-relay=y
-CONFIG_PACKAGE_luci-ssl-nginx=y
 
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 
@@ -313,56 +135,10 @@ CONFIG_PACKAGE_miniupnpd=y
 CONFIG_PACKAGE_nano=y
 CONFIG_PACKAGE_nft-qos=y
 
-CONFIG_PACKAGE_nginx=y
-CONFIG_PACKAGE_nginx-mod-luci=y
-CONFIG_PACKAGE_nginx-mod-luci-ssl=y
-CONFIG_PACKAGE_nginx-ssl=y
-CONFIG_PACKAGE_nginx-ssl-util=y
-CONFIG_PACKAGE_nginx-util=y
-CONFIG_PACKAGE_openssl-util=y
-
-# CONFIG_PACKAGE_openwrt-keyring is not set
-
-CONFIG_PACKAGE_perl=y
-
-CONFIG_PACKAGE_perlbase-base=y
-CONFIG_PACKAGE_perlbase-bytes=y
-CONFIG_PACKAGE_perlbase-class=y
-CONFIG_PACKAGE_perlbase-config=y
-CONFIG_PACKAGE_perlbase-cwd=y
-CONFIG_PACKAGE_perlbase-errno=y
-CONFIG_PACKAGE_perlbase-essential=y
-CONFIG_PACKAGE_perlbase-fcntl=y
-CONFIG_PACKAGE_perlbase-file=y
-CONFIG_PACKAGE_perlbase-filehandle=y
-CONFIG_PACKAGE_perlbase-i18n=y
-CONFIG_PACKAGE_perlbase-integer=y
-CONFIG_PACKAGE_perlbase-io=y
-CONFIG_PACKAGE_perlbase-list=y
-CONFIG_PACKAGE_perlbase-locale=y
-CONFIG_PACKAGE_perlbase-params=y
-CONFIG_PACKAGE_perlbase-posix=y
-CONFIG_PACKAGE_perlbase-re=y
-CONFIG_PACKAGE_perlbase-scalar=y
-CONFIG_PACKAGE_perlbase-selectsaver=y
-CONFIG_PACKAGE_perlbase-socket=y
-CONFIG_PACKAGE_perlbase-symbol=y
-CONFIG_PACKAGE_perlbase-tie=y
-CONFIG_PACKAGE_perlbase-unicore=y
-CONFIG_PACKAGE_perlbase-utf8=y
-CONFIG_PACKAGE_perlbase-xsloader=y
-
 # CONFIG_PACKAGE_procd-ujail is not set
 CONFIG_PACKAGE_proto-bonding=y
 
 # CONFIG_PACKAGE_r8169-firmware is not set
-CONFIG_PACKAGE_relayd=y
-
-CONFIG_PACKAGE_rpcd=y
-CONFIG_PACKAGE_rpcd-mod-file=y
-CONFIG_PACKAGE_rpcd-mod-iwinfo=y
-CONFIG_PACKAGE_rpcd-mod-luci=y
-CONFIG_PACKAGE_rpcd-mod-rrdns=y
 
 CONFIG_PACKAGE_rt2800-usb-firmware=y
 
@@ -374,12 +150,6 @@ CONFIG_PACKAGE_sysfsutils=y
 CONFIG_PACKAGE_terminfo=y
 
 CONFIG_PACKAGE_unzip=y
-# CONFIG_PACKAGE_usign is not set
-
-CONFIG_PACKAGE_uwsgi=y
-CONFIG_PACKAGE_uwsgi-cgi-plugin=y
-CONFIG_PACKAGE_uwsgi-luci-support=y
-CONFIG_PACKAGE_uwsgi-syslog-plugin=y
 
 CONFIG_PACKAGE_virtio-console-helper=y
 
@@ -400,15 +170,12 @@ CONFIG_PERL_THREADS=y
 # CONFIG_SIGNED_PACKAGES is not set
 # CONFIG_TARGET_ROOTFS_EXT4FS is not set
 
-
-
-
 #语言
 CONFIG_LUCI_LANG_en=y
 CONFIG_LUCI_LANG_zh_Hans=y
 
 #ipv6
-# CONFIG_PACKAGE_dnsmasq is not set
+# CONFIG_PACKAGE_dnsmasq 
 CONFIG_PACKAGE_dnsmasq-full=y
 CONFIG_PACKAGE_dnsmasq_full_auth=y
 CONFIG_PACKAGE_dnsmasq_full_conntrack=y
@@ -429,6 +196,8 @@ CONFIG_PACKAGE_my-autocore-x86=y
 
 #挂在硬盘格式
 
+#usb
+CONFIG_PACKAGE_autosamba=y
 CONFIG_PACKAGE_autoshare-samba=y
 CONFIG_PACKAGE_automount=y
 CONFIG_PACKAGE_antfs-mount=y
@@ -443,73 +212,9 @@ CONFIG_PACKAGE_kmod-fs-nfs-common=y
 CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec=y
 CONFIG_PACKAGE_kmod-fs-nfsd=y
 
-#usb
-CONFIG_PACKAGE_autosamba=y
 
-
-CONFIG_PACKAGE_kmod-usb-core=y
-CONFIG_PACKAGE_kmod-usb-dwc2=y
-CONFIG_PACKAGE_kmod-usb-dwc3=y
-CONFIG_PACKAGE_kmod-usb-ehci=y
-CONFIG_PACKAGE_kmod-usb-ledtrig-usbport=y
-CONFIG_PACKAGE_kmod-usb-net=y
-CONFIG_PACKAGE_kmod-usb-net-aqc111=y
-CONFIG_PACKAGE_kmod-usb-net-asix=y
-CONFIG_PACKAGE_kmod-usb-net-asix-ax88179=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-eem=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-mbim=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-subset=y
-CONFIG_PACKAGE_kmod-usb-net-dm9601-ether=y
-CONFIG_PACKAGE_kmod-usb-net-hso=y
-CONFIG_PACKAGE_kmod-usb-net-huawei-cdc-ncm=y
-CONFIG_PACKAGE_kmod-usb-net-ipheth=y
-CONFIG_PACKAGE_kmod-usb-net-kalmia=y
-CONFIG_PACKAGE_kmod-usb-net-kaweth=y
-CONFIG_PACKAGE_kmod-usb-net-mcs7830=y
-CONFIG_PACKAGE_kmod-usb-net-pegasus=y
-CONFIG_PACKAGE_kmod-usb-net-pl=y
-CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
-CONFIG_PACKAGE_kmod-usb-net-rndis=y
-CONFIG_PACKAGE_kmod-usb-net-sierrawireless=y
-CONFIG_PACKAGE_kmod-usb-net-smsc95xx=y
-CONFIG_PACKAGE_kmod-usb-net-sr9700=y
-CONFIG_PACKAGE_kmod-usb-ohci=y
-CONFIG_PACKAGE_kmod-usb-ohci-pci=y
-CONFIG_PACKAGE_kmod-usb-printer=y
-CONFIG_PACKAGE_kmod-usb-roles=y
-CONFIG_PACKAGE_kmod-usb-serial=y
-CONFIG_PACKAGE_kmod-usb-serial-option=y
-CONFIG_PACKAGE_kmod-usb-serial-wwan=y
-CONFIG_PACKAGE_kmod-usb-storage=y
-CONFIG_PACKAGE_kmod-usb-storage-extras=y
-CONFIG_PACKAGE_kmod-usb-storage-uas=y
-CONFIG_PACKAGE_kmod-usb-wdm=y
-CONFIG_PACKAGE_kmod-usb-xhci-hcd=y
-CONFIG_PACKAGE_kmod-usb2=y
-CONFIG_PACKAGE_kmod-usb2-pci=y
-CONFIG_PACKAGE_kmod-usb3=y
-
-
-#USB net driver
-CONFIG_PACKAGE_kmod-rtlwifi=y
-CONFIG_PACKAGE_kmod-rtlwifi-btcoexist=y
-CONFIG_PACKAGE_kmod-rtlwifi-usb=y
-CONFIG_PACKAGE_kmod-rtl8812au-ac=y
-CONFIG_PACKAGE_usb-modeswitch=y
-CONFIG_PACKAGE_kmod-rtl8192cu=y
-CONFIG_PACKAGE_kmod-rtl8821cu=y
-CONFIG_PACKAGE_kmod-mt76=y
-CONFIG_PACKAGE_kmod-mt76x2u=y
-CONFIG_PACKAGE_kmod-usb-net-asix=y
 CONFIG_PACKAGE_kmod-usb-net-asix-ax88179=y
 CONFIG_PACKAGE_kmod-usb-net-rtl8152-vendor=y
-CONFIG_PACKAGE_kmod-usb-net-rndis=y
-CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
-CONFIG_PACKAGE_kmod-ath9k=y
-CONFIG_PACKAGE_kmod-ath9k-htc=y
-
 
 CONFIG_PACKAGE_cgi-io=y
 CONFIG_PACKAGE_libiwinfo=y
@@ -590,14 +295,14 @@ CONFIG_VERSION_SUPPORT_URL=""
 
 
 #mitmproxy
-CONFIG_PACKAGE_python3=y
-CONFIG_PACKAGE_gcc=y
-CONFIG_PACKAGE_python3-dev=y
-CONFIG_PACKAGE_python3-pip=y
-CONFIG_PACKAGE_python3-six=y
-CONFIG_PACKAGE_python3-cffi=y
-CONFIG_PACKAGE_python3-openssl=y
-CONFIG_PACKAGE_python3-cryptography=y
+##CONFIG_PACKAGE_python3=y
+#CONFIG_PACKAGE_gcc=y
+#CONFIG_PACKAGE_python3-dev=y
+#CONFIG_PACKAGE_python3-pip=y
+#CONFIG_PACKAGE_python3-six=y
+#CONFIG_PACKAGE_python3-cffi=y
+#CONFIG_PACKAGE_python3-openssl=y
+#CONFIG_PACKAGE_python3-cryptography=y
 CONFIG_PACKAGE_tcpdump=y
 CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_wget=y
